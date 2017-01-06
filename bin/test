@@ -1,0 +1,5 @@
+#! /bin/bash
+
+set -e
+cd test
+go run ../stolos-lint.go

@@ -1,0 +1,11 @@
+# Sample file for testing of Stolos Lint.
+# This is a properly structured docker-compose.yaml file for Stolos.
+
+version: '2'
+
+services:
+  web:
+    build: stolos-lint
+
+  db:
+    image: postgres:latest
